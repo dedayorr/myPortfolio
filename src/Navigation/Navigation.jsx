@@ -1,26 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaHome } from "react-icons/fa";
+import { BsInfoCircleFill} from "react-icons/bs";
 import { AiFillProject } from "react-icons/ai";
 import { RiContactsBook2Fill } from "react-icons/ri";
 
 export const Navigation = () => {
   return (
-    <div className=" flex mx-auto justify-between p-3">
+    <div className=" flex mx-auto justify-between p-3 md:p-4 lg:px-16">
       <Link className="flex" to="/">
-        <img src="./images/dee.png" width={50} alt="" />
+        <img src="./images/D.png" width={50} alt="" />
       </Link>
-      <div className="flex p-3 bg-[#7B8FA1] w-[70%] justify-between rounded-xl">
-        <Link className="flex flex-col items-center" to="/about">
-          <FaHome />
+      <div className="flex p-3 bg-[#7B8FA1] w-[70%] justify-between rounded-xl md:bg-[#7b8fa100] md:w-[60%] md:text-3xl lg:text-xl lg:w-[40%] " style={{boxShadow:" #CFB997 0px 1px 1px 0px, #CFB997 0px 1px 4px 0px"}}>
+        <Link
+          className="flex flex-col items-center hover:text-[#CFB997]"
+          to="/about"
+        >
+          <p className="lg:text-3xl">
+            <BsInfoCircleFill/>
+          </p>
           About
         </Link>
-        <Link className="flex flex-col items-center" to="/project">
-          <AiFillProject />
+        <Link className="flex flex-col items-center hover:text-[#CFB997]" to="/project">
+          <p className="lg:text-3xl">
+            <AiFillProject />
+          </p>
           Projects
         </Link>
-        <Link className="flex flex-col items-center" to="/contact">
-          <RiContactsBook2Fill />
+        <Link className="flex flex-col items-center hover:text-[#CFB997]" to="/contact">
+          <p className="lg:text-3xl">
+            <RiContactsBook2Fill />
+          </p>
           Contact
         </Link>
       </div>

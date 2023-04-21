@@ -6,11 +6,11 @@ import { RiContactsBook2Fill } from "react-icons/ri";
 
 export const Navigation = () => {
   return (
-    <div className=" flex mx-auto justify-between p-3 md:p-4 lg:px-16">
+    <div className="sticky top-0 z-50 flex mx-auto justify-between p-3 md:p-4 lg:px-16" style={{boxShadow:" #CFB997 0px 1px 1px 0px, #CFB997 0px 1px 4px 0px"}}>
       <Link className="flex" to="/">
         <img src="./images/D.png" width={50} alt="" />
       </Link>
-      <div className="flex p-3 bg-[#7B8FA1] w-[70%] justify-between rounded-xl md:bg-[#7b8fa100] md:w-[60%] md:text-3xl lg:text-xl lg:w-[40%] " style={{boxShadow:" #CFB997 0px 1px 1px 0px, #CFB997 0px 1px 4px 0px"}}>
+      <div className="flex p-3 bg-[#7B8FA1] w-[70%] justify-between rounded-xl md:bg-[#7b8fa100] md:w-[60%] md:text-3xl lg:text-xl lg:w-[40%] " >
         <Link
           className="flex flex-col items-center hover:text-[#CFB997]"
           to="/about"

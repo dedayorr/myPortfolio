@@ -39,6 +39,11 @@ export const Home = () => {
           <SiInstagram />
         </a>
       </div>
+
+      <div className="flex text-center font-bold mt-[5%]">
+        <p>Call me : 09127563048</p>
+        <p>Email : dedayo16@gmail.com</p>
+      </div>
     </div>
   );
 };

@@ -40,7 +40,7 @@ export const Home = () => {
         </a>
       </div>
 
-      <div className="flex text-center font-bold mt-[5%]">
+      <div className="flex text-center font-bold mt-[5%] md:hidden">
         <p>Call me : 09127563048</p>
         <p>Email : dedayo16@gmail.com</p>
       </div>

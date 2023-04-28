@@ -19,6 +19,36 @@ export const Project = () => {
           >
             <a
               className="text-2xl font-extrabold text-[#CFB997] hover:underline"
+              href="https://blog-app-vert-two.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              BLOGIFY BLOG APP
+            </a>
+            <img src="./images/blogapp.jpeg" alt="" />
+            <p>
+              A blog app where you can add blogs, update blogs and delete. Also
+              has a store for books. <br /> Built with Html, Css, React.js,
+              Tailwind.
+            </p>
+            <br />
+            <a
+              className="border p-1 rounded-full hover:bg-[#fad6a579]"
+              href="https://github.com/dedayorr/BlogApp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub Link
+            </a>
+          </div>
+          <div
+            className="p-3 mt-[3%] w-[90%] mx-auto"
+            style={{
+              boxShadow: " #CFB997 0px 1px 1px 0px, #CFB997 0px 1px 4px 0px",
+            }}
+          >
+            <a
+              className="text-2xl font-extrabold text-[#CFB997] hover:underline"
               href="https://d-gadgets-store.netlify.app/"
               target="_blank"
               rel="noreferrer"
@@ -30,9 +60,15 @@ export const Project = () => {
               A gadget store where you can add items to carts and make purchase.{" "}
               <br /> Built with Html, Css, Javascript, Tailwind.
             </p>
-            <br/>
-           <a className="border p-1 rounded-full hover:bg-[#fad6a579]" href="https://github.com/dedayorr/E-commerce-for-gadgets" target="_blank"
-              rel="noreferrer">GitHub Link</a>
+            <br />
+            <a
+              className="border p-1 rounded-full hover:bg-[#fad6a579]"
+              href="https://github.com/dedayorr/E-commerce-for-gadgets"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub Link
+            </a>
           </div>
           <div
             className="p-3 mt-[3%] w-[90%] mx-auto"
@@ -53,9 +89,15 @@ export const Project = () => {
               A simple business website. <br /> Built with Html, Css and
               Javascript
             </p>
-            <br/>
-            <a className="border p-1 rounded-full hover:bg-[#fad6a579]" href="https://github.com/dedayorr/business-webstite" target="_blank"
-              rel="noreferrer">GitHub Link</a>
+            <br />
+            <a
+              className="border p-1 rounded-full hover:bg-[#fad6a579]"
+              href="https://github.com/dedayorr/business-webstite"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub Link
+            </a>
           </div>
           <div
             className="p-3 mt-[3%] w-[90%] mx-auto"
@@ -76,32 +118,17 @@ export const Project = () => {
               You can add books and delete books of your choice. <br /> Built
               with Html, Css and Javascript
             </p>
-            <br/>
-            <a className="border p-1 rounded-full hover:bg-[#fad6a579]" href="https://github.com/dedayorr/Simple-Book-List" target="_blank"
-              rel="noreferrer">GitHub Link</a>
-          </div>
-          <div
-            className="p-3 mt-[3%] w-[90%] mx-auto"
-            style={{
-              boxShadow: " #CFB997 0px 1px 1px 0px, #CFB997 0px 1px 4px 0px",
-            }}
-          >
+            <br />
             <a
-              className="text-2xl font-extrabold text-[#CFB997] hover:underline"
-              href="https://prismatic-entremet-275fdf.netlify.app/"
+              className="border p-1 rounded-full hover:bg-[#fad6a579]"
+              href="https://github.com/dedayorr/Simple-Book-List"
               target="_blank"
               rel="noreferrer"
             >
-              BLOGIFY BLOG APP
+              GitHub Link
             </a>
-            <img src="./images/blogapp.jpeg" alt="" />
-            <p>A blog app where you can add blogs, update blogs and delete. Also has a store for books. <br/> Built with Html, Css, React.js, Tailwind.</p>
-            <br/>
-            <a className="border p-1 rounded-full hover:bg-[#fad6a579]" href="https://github.com/dedayorr/BlogApp" target="_blank"
-              rel="noreferrer">GitHub Link</a>
           </div>
         </div>
-
       </div>
     </div>
   );

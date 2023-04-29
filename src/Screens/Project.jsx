@@ -86,13 +86,41 @@ export const Project = () => {
             </a>
             <img src="./images/businessweb.png" alt="" />
             <p>
-              A simple business website. <br /> Built with Html, Css and
-              Javascript
+              A task management app to manage to tasks and keep track of them. <br /> Built with Html, Css, React.js
             </p>
             <br />
             <a
               className="border p-1 rounded-full hover:bg-[#fad6a579]"
               href="https://github.com/dedayorr/business-webstite"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub Link
+            </a>
+          </div>
+          <div
+            className="p-3 mt-[3%] w-[90%] mx-auto"
+            style={{
+              boxShadow: " #CFB997 0px 1px 1px 0px, #CFB997 0px 1px 4px 0px",
+            }}
+          >
+            <a
+              className="text-2xl font-extrabold text-[#CFB997] hover:underline"
+              href="https://task-management-app-eight-tau.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Task Management App
+            </a>
+            <img src="./images/booklist.jpeg" alt="" />
+            <p>
+              You can add books and delete books of your choice. <br /> Built
+              with Html, Css and Javascript
+            </p>
+            <br />
+            <a
+              className="border p-1 rounded-full hover:bg-[#fad6a579]"
+              href="https://github.com/dedayorr/Task-Management-App"
               target="_blank"
               rel="noreferrer"
             >

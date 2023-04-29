@@ -112,7 +112,7 @@ export const Project = () => {
             >
               Task Management App
             </a>
-            <img src="./images/booklist.jpeg" alt="" />
+            <img src="./images/taskmgt.jpeg" alt="" />
             <p>
               You can add books and delete books of your choice. <br /> Built
               with Html, Css and Javascript

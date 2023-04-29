@@ -33,7 +33,7 @@ function Contact() {
             style={{ height: "200px", width: "200px" }}
           ></Player>
 
-          <p className="flex justify-center font-bold text-2xl">Whatsapp : 09127563048</p>
+          <p className="flex justify-center font-bold text-2xl">Whatsapp : +234(912)756-3048</p>
         </div>
         <div>
           <Player

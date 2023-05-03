@@ -28,7 +28,7 @@ export const Project = () => {
             <img src="./images/blogapp.jpeg" alt="" />
             <p>
               A blog app where you can add blogs, update blogs and delete. Also
-              has a store for books. <br /> Built with Html, Css, React.js,
+              has a store for books where you can purchase books with flutterwave payment integration. <br /> Built with Html, Css, React.js,
               Tailwind.
             </p>
             <br />
@@ -57,7 +57,7 @@ export const Project = () => {
             </a>
             <img src="./images/gadget.jpeg" alt="" />
             <p>
-              A gadget store where you can add items to carts and make purchase.{" "}
+              A gadget store where you can add items to carts and make purchase with flutterwave payment integration.{" "}
               <br /> Built with Html, Css, Javascript, Tailwind.
             </p>
             <br />
@@ -86,7 +86,7 @@ export const Project = () => {
             </a>
             <img src="./images/businessweb.png" alt="" />
             <p>
-              A task management app to manage to tasks and keep track of them. <br /> Built with Html, Css, React.js
+              A simple business website <br /> Built with Html, Css, Javascript.
             </p>
             <br />
             <a
@@ -114,8 +114,8 @@ export const Project = () => {
             </a>
             <img src="./images/taskmgt.jpeg" alt="" />
             <p>
-              You can add books and delete books of your choice. <br /> Built
-              with Html, Css and Javascript
+              You can add task, update and delete tasks of your choice. <br /> Built
+              with Html, Css and React.js
             </p>
             <br />
             <a

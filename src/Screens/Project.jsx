@@ -106,7 +106,7 @@ export const Project = () => {
           >
             <a
               className="text-2xl font-extrabold text-[#CFB997] hover:underline"
-              href="https://task-management-app-eight-tau.vercel.app/"
+              href="https://task-management-app-git-master-dedayorr.vercel.app/tasks"
               target="_blank"
               rel="noreferrer"
             >
